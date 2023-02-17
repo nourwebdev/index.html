@@ -1,0 +1,605 @@
+
+html{
+    width:100%;
+    height:100%;
+    scroll-behavior: smooth;
+}
+body{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+}
+header{
+    display: flex;
+    height: 12%;
+    background-color: black;
+    justify-content: space-between;
+}/**
+@media( max-width:768px){
+    header{
+        flex-direction: column;
+    }
+}**/
+.logo{
+    
+    height: 100%;
+    
+    margin-top: 10px;  
+}/**
+@media( max-width:768px){
+    .logo{
+    margin-left: 41%;
+    margin-top: 2%;
+    }
+}**/
+img{
+    height: 100px;
+    margin-bottom: 20px;
+}
+.nombre{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.subtitle{
+    color: azure;
+}/**
+@media (max-width:768px){
+    .subtitle{
+        display: none;
+    }
+    .nombre{
+       display: none
+    }
+    .colum1{
+        flex-direction: column
+    }
+    .telefonia{
+        width:100%;
+        height: 100%;
+    }
+}**/
+nav{
+    justify-content: space-between;
+    flex-direction: column;
+}
+.colum{
+    margin: auto;
+}
+.bg-color{
+    background-color: blueviolet;
+    height: 100%;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold; 
+    padding: 15px;
+}
+.nav a:hover{
+    background-color: rgb(10, 114, 24);
+    color: black;
+    padding: auto;
+    
+}
+ /**@media ( max-width:768px ) {
+    .links{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+**/
+section{
+    display: flex;
+    height:100%
+    
+}
+
+.principal{
+    background-image: url(../img/70e5976bc7945d7fa2fb9b1aa269235a_1084x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+    display: grid;
+    
+}
+.texto-inicio{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.logosamsung{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.samsung{
+    align-items: center;
+}
+.servicios{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.texto-servicios{
+    color: white;
+    text-align: center;
+    width: -webkit-fill-available;
+    font-size: 66px;
+    font-weight: bold;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.colum1{
+    
+    justify-content: space-around;
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 100px;
+    
+}
+.contenidos{
+    display: inline;
+}
+
+/** seccion de servicios**/
+.imagen__servicios{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+/** columnas de la seccion servicios**/
+.telefonia{
+    width: 33%;
+    margin: 0 5px;
+}
+.instalaciones{
+    width:33%;
+    margin: 0 5px;
+}
+.imagen-sonido{
+    width: 33%;
+    margin: 0 5px;
+}
+.descripcion__servicios{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+.descripcion__otros__servicios{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    margin: 0 40px;
+}
+.lista{
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-left: 75px;
+}
+.line_horizontal{
+    background-color: white;
+    width: 90%;
+    height: 1px;
+    margin-left: 3%;
+
+}
+/**seccion sobre nosotros**/
+.texto_sobre_nosotros{
+    color: white;
+    text-align: center;
+    width: -webkit-fill-available;
+    font-size: 66px;
+    font-weight: bold;
+    height: 100px;
+    
+}
+.img_reception{
+    border-radius: 25px;
+    width: 55%;
+    height:100%;
+    margin-left: 4%;
+}
+.display_nosotros{
+    display: flex;
+}
+.text_sobre_nosotros{
+    margin: 0 2%;
+    text-align: justify;
+    font-size: larger;
+    margin-top: 10%;
+}
+/** seccion de contacto **/
+
+.mapa_google{
+    width: 100%;
+    height: 400px;
+}
+.img_preform{
+    height: 331px;
+    margin-right: -19px;
+    
+}
+
+.casi_footer{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+
+/** footer**/
+.line_end{
+    background-color: blueviolet;
+    width: 100%;
+    height:2px;
+}
+
+.icon-icon-tabler-icon-tabler-mail{
+    
+    transform: translateY(30%);
+
+}
+.marca-footer{
+    text-decoration: none;
+    color: white;
+}
+.copyright-footer{
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    margin-top: -47px;
+
+}
+/**
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  **/
+/** aqui empiezan los media para un ancho de pagina de 768 pixeles **/
+  @media ( max-width:768px ) {
+    html {
+        width: 100%;
+        height: 100%;
+      }
+      
+      body {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        font-family: sans-serif;
+        margin: 0px;
+      }
+      
+      h3 {
+        color: white;
+        text-align: center;
+      }
+      
+      p {
+        color: white;
+      }
+      
+      header {
+        display: flex;
+        height: 10%;
+        background-color: black;
+        justify-content: space-between;
+      }
+      
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+        }
+      
+        .logo {
+          margin-left: 41%;
+          margin-top: 2%;
+        }
+        .element_logo{
+            height: 74px;
+            margin-bottom: 20px;
+
+      }
+        .subtitle {
+          display: none;
+        }
+      
+        .nombre {
+          display: none;
+        }
+      
+        .colum1 {
+          flex-direction: column;
+        }
+      
+        .telefonia {
+          width: 100%;
+          height: 100%;
+        }
+      
+        .links {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+      
+      .logo {
+        height: 100%;
+        margin-top: 10px;
+      }
+      
+      img {
+        height: 100px;
+        margin-bottom: 20px;
+      }
+      
+      .nombre {
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      
+      .subtitle {
+        color: azure;
+      }
+      
+      nav {
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      
+      .colum {
+        margin: auto;
+      }
+      
+      .bg-color {
+        background-color: blueviolet;
+        height: 100%;
+        text-decoration: none;
+      }
+      
+      .links {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .nav-link {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 15px;
+      }
+      
+      .nav a:hover {
+        background-color: rgb(10, 114, 24);
+        color: black;
+        padding: auto;
+      }
+      
+      section {
+        display: flex;
+        height: 100%;
+      }
+      
+      .principal {
+        background-image: url(../img/70e5976bc7945d7fa2fb9b1aa269235a_1084x1080.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        display: grid;
+      }
+      
+      .texto-inicio {
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      
+      .logosamsung {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .samsung {
+        align-items: center;
+      }
+      
+      .servicios {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .texto-servicios {
+        color: white;
+        text-align: center;
+        width: -webkit-fill-available;
+        font-size: 48px;
+        font-weight: bold;
+        height: 100px;
+        margin-bottom: 5px;
+      }
+      
+      .colum1 {
+        justify-content: space-around;
+        display: inline-flex;
+        width: 100%;
+        padding-bottom: 100px;
+      }
+      
+      .contenidos {
+        display: inline;
+      }
+      
+      /** seccion de servicios**/
+      .imagen__servicios {
+        height: 100%;
+        width: 98%;
+        border-radius: 25px;
+      }
+      .telefonia {
+        width: 100%;
+        margin: 0;
+        }
+        .instalaciones {
+        width: 100%;
+        margin: 0;
+        }
+        .imagen-sonido {
+        width: 100%;
+        margin: 0;
+        }
+        .descripcion__servicios {
+        text-align: center;
+        font-size: larger;
+        font-weight: 700;
+        }
+        .descripcion__otros__servicios {
+        text-align: center;
+        font-size: larger;
+        font-weight: 700;
+        margin: 0;
+        }
+        .lista {
+        color: white;
+        font-weight: 700;
+        font-size: large;
+        margin-left: 0;
+        }
+        .line_horizontal {
+        background-color: white;
+        width: 90%;
+        height: 1px;
+        margin-left: 5%;
+        }
+        /** seccion sobre nosotros**/
+        .texto_sobre_nosotros {
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-size: 48px;
+        font-weight: bold;
+        height: 80px;
+        }
+        .img_reception {
+        border-radius: 25px;
+        width: 90%;
+        height: auto;
+        
+        }
+        .display_nosotros {
+        display: block;
+        }
+        .text_sobre_nosotros {
+        margin: 5% 5%;
+        text-align: justify;
+        font-size: medium;
+        margin-top: 5%;
+        }
+        .img_preform{
+            width:0%;
+            height:0%;
+              
+        }
+        /** seccion de contacto /
+        .mapa_google {
+        width: 100%;
+        height: 300px;
+        }
+        .img_preform {
+        height: auto;
+        margin-right: 0;
+        }
+        .casi_footer {
+        display: block;
+        margin-top: 35px;
+        text-align: center;
+        }
+        / footer**/
+        .line_end {
+        background-color: blueviolet;
+        width: 100%;
+        height: 2px;
+        }
+        .icon-icon-tabler-icon-tabler-mail {
+        
+        }
+        .marca-footer {
+        text-decoration: none;
+        color: white;
+        }
+        .copyright-footer {
+        text-align: center;
+        }
+        .social-media {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        }
+        
+}
